@@ -43,7 +43,7 @@ function onBtnSubmit(evt) {
         });
       }
 
-      list.insertAdjacentHTML = ('beforeend', createMarkup(data.hits));
+      list.insertAdjacentHTML('beforeend', createMarkup(data.hits));
 
       lightbox.refresh();
       form.reset();
