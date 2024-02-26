@@ -39,7 +39,6 @@ function onBtnSubmit(evt) {
           backgroundColor: '#ef4040',
           position: 'topRight',
           iconUrl: icon,
-          timeout: 500000,
         });
       }
 
